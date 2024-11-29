@@ -1,5 +1,9 @@
 ## Portfolio
--**Team-08****
+## Team 08
+Team members:
+Shreya.M.D
+
+
 ### Hello, I'm Bhagyashree 👋
 
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
