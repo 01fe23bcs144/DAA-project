@@ -2,10 +2,14 @@
 ## Team 08
 Team members:
 </dl>
-301-Shreya.M.D
-</dl>320-Vaishnavi
-</dl>327-Bhagyashree
-</dl>345-Apeksha.A.D
+<dl>301-Shreya.M.D
+</dl>
+<dl>320-Vaishnavi
+</dl>
+<dl>327-Bhagyashree
+</dl>
+<dl>345-Apeksha.A.D
+</dl>
 
 ### Hello, I'm Bhagyashree 👋
 
