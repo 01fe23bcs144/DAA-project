@@ -69,4 +69,4 @@ Our team is spearheading the development of Aarohan, a smart city spanning 1,500
 
 ---
 
-> “The only way to do great work is to love what you do.” – Steve Jobs
+> "The best way to predict the future is to create it."- Abraham Lincoln
