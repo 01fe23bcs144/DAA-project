@@ -69,4 +69,4 @@ Our team is spearheading the development of Aarohan, a smart city spanning 1,500
 
 ---
 
-> "The best way to predict the future is to create it."- Abraham Lincoln
+> "Cities are the greatest creation of humanity, and they hold the key to solving the world’s most pressing challenges."– Enrique Peñalosa
