@@ -10,8 +10,7 @@
 
 ### Project
 #### Project Introduction
-Our team is leading the charge on developing a 1,500-square-kilometer smart city named Aarohan, surrounded by hills and mountains. With a projected population of 1 million and a ₹15,000 crore budget, the project combines advanced technology, sustainable practices, and innovative urban design to create a modern, eco-friendly community. The initiative reflects our team’s commitment to designing a progressive urban environment that seamlessly blends nature, advanced technology, and efficient infrastructure.  
----
+Our team is spearheading the development of Aarohan, a smart city spanning 1,500 square kilometers, nestled among hills and mountains. With a projected population of 1 million residents and a budget of ₹15,000 crores, this initiative combines advanced technology, sustainable practices, and innovative urban design to create a modern, eco-friendly community. Our commitment to designing a progressive urban environment is evident in our seamless integration of nature, cutting-edge technology, and efficient infrastructure.
 
 ## Portfolio Topic
 
