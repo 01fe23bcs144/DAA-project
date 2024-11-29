@@ -1,21 +1,12 @@
 ## Portfolio
-
-### Hello, I'm [Your Name] 👋
+-**Team-08****
+### Hello, I'm Bhagyashree 👋
 
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
 
 ## 🛠️ Projects
-- **Project 1**: A short description of your project.
-- **Project 2**: A short description of another project.
-
-## 🚀 Skills
-- C++, Python, JavaScript
-- Data Structures and Algorithms
-- Web Development (React.js, Node.js)
-
-## 🌐 Find Me Online
-- [GitHub](https://github.com/your-github-username)
-- [LinkedIn](https://linkedin.com/in/your-linkedin-profile)
+- **Project**: Introduction
+- Our team is leading the charge on developing a 1,500-square-kilometer smart city named Aarohan, surrounded by hills and mountains. With a projected population of 1 million and a ₹15,000 crore budget, the project combines advanced technology, sustainable practices, and innovative urban design to create a modern, eco-friendly community. The initiative showcases your team’s dedication to crafting a forward-thinking urban environment that integrates nature, technology, and efficient infrastructure.
 
 ## Portfolio Topic
 
