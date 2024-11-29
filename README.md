@@ -1,11 +1,10 @@
 ## Portfolio
 ## Team 08
 ### Team members:
-</dl>
-<dt>301-Shreya.M.D</dt>
-<dt>320-Vaishnavi</dt>
-<dt>327-Bhagyashree</dt>
-<dt>345-Apeksha.A.D</dt>
+<dl><dt>301-Shreya.M.D</dt></dl>
+<dl><dt>320-Vaishnavi</dt></dl>
+<dl><dt>327-Bhagyashree</dt></dl>
+<dl><dt>345-Apeksha.A.D</dt></dl>
 
 ### Hello, I'm Bhagyashree 👋
 
