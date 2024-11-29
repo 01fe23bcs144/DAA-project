@@ -28,15 +28,15 @@ Our team is spearheading the development of Aarohan, a smart city spanning 1,500
   <dt>Course Code</dt>
   <dd>Course Code Placeholder</dd>
   <dt>Name</dt>
-  <dd>Your Name</dd>
+  <dd>Bhagyashree</dd>
   <dt>SRN</dt>
-  <dd>Your SRN</dd>
+  <dd>01FE23BCS144</dd>
   <dt>Course Instructor</dt>
-  <dd>Instructor Name Placeholder</dd>
+  <dd>Prakash hegde</dd>
   <dt>University</dt>
-  <dd>Your University Name</dd>
-  <dt>Portfolio Topic/Domain</dt>
-  <dd>Google</dd>
+  <dd>KLE Technological University</dd>
+  <dt> Topic</dt>
+  <dd>Smart City Design</dd>
 </dl>
 <h3>Business Cases Identified by Each Member</h3>
 <dl>
