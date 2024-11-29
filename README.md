@@ -3,11 +3,10 @@
 ### Team members:
 <dl>
   <dt>301-Shreya.M.D</dt>
-  <dt>320-Vaishnavi</dt>
-  <dt>327-Bhagyashree</dt>
-  <dt>345-Apeksha.A.D</dt>
+  <dt>&nbsp;&nbsp;&nbsp;&nbsp;320-Vaishnavi</dt>
+  <dt>&nbsp;&nbsp;&nbsp;&nbsp;327-Bhagyashree</dt>
+  <dt>&nbsp;&nbsp;&nbsp;&nbsp;345-Apeksha.A.D</dt>
 </dl>
-
 
 ### Project
 #### Project Introduction
