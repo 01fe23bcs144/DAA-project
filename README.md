@@ -1,4 +1,3 @@
-Here’s a more casual version of the text:
 
 ---
 
