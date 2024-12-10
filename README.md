@@ -131,6 +131,5 @@ To accommodate new challenges, it is essential to analyze how the adjustments al
 Dividing problems into smaller components enhances manageability. For example, in resolving a graph-related challenge, foundational traversal techniques such as BFS or DFS were initially established, forming a basis for developing advanced solutions like shortest-path algorithms.
 
 ---
----
 
 
