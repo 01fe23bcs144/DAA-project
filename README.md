@@ -1,5 +1,5 @@
 
-### 1 What are the kinds of problems we see in nature? (iteration, recursion, backtracking)
+### 1. What are the kinds of problems we see in nature? (iteration, recursion, backtracking)
 
 Nature employs remarkable processes that mirror algorithmic principles. For instance:
 
@@ -7,7 +7,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 - **Recursion**: Observed in the formation of snowflakes, the branching patterns of trees, and the replication of DNA.
 - **Backtracking**: Ants demonstrate this concept as they explore various pathways to food and adjust their routes based on their findings. Additionally, it is evident in how spiders repair their webs, how bees locate flowers, how fish navigate streams, and how plants develop their root systems.
 ---
-### 2 What is space and time efficiency? Why are they important? Explain the different classes of problems and orders of growth.
+### 2. What is space and time efficiency? Why are they important? Explain the different classes of problems and orders of growth.
 - **Space Efficiency**: This aspect evaluates the additional memory requirements of an algorithm.
 - **Time Efficiency**: This refers to the duration an algorithm requires to execute or the speed at which it performs tasks, which is commonly referred to as time complexity.
 ## **Classes of Problems and Orders of Growth**
@@ -18,7 +18,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 - **Exponential (O(2ⁿ))**: Relevant in more complex scenarios, exemplified by the N-Queens problem.
 ---
 
-### 3 Take away from different design principles from Chapter 2 
+### 3. Take away from different design principles from Chapter 2 
 1. **Divide and Conquer**: Splitting problems into smaller, manageable components for easier resolution (as demonstrated in merge sort).  
 2. **Greedy Approach**: Making optimal local decisions at each stage to achieve a globally optimal solution (e.g., Kruskal’s algorithm for Minimum Spanning Trees).  
 3. **Dynamic Programming**: Addressing overlapping subproblems systematically (such as computing the Fibonacci sequence).  
@@ -27,7 +27,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 
 ---
 
-### 4 The hierarchical data and how different tree data structures solve and optimize over the problem scenarios.
+### 4. The hierarchical data and how different tree data structures solve and optimize over the problem scenarios.
 - **Binary Search Tree (BST)**: Enables efficient search, insertion, and deletion operations.  
 - **AVL Tree**: A self-balancing variant of BST that maintains operations at O(log n).  
 - **Red-Black Tree**: Facilitates memory balancing in complex scenarios, such as database indexing.  
@@ -37,7 +37,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 
 ---
 
-### 5 The need of array query algorithms and their implications. Their applications and principles need to be discussed
+### 5. The need of array query algorithms and their implications. Their applications and principles need to be discussed.
 Array query algorithms significantly improve data retrieval and update efficiency:  
 - **Segment Tree**: Efficiently manages range queries, enabling operations such as finding sums or minimums in logarithmic time.  
 - **Fenwick Tree (BIT)**: Optimizes prefix sum queries and updates.
@@ -45,12 +45,9 @@ Array query algorithms significantly improve data retrieval and update efficienc
 **Applications** include:
 - Analyzing meteorological data through range queries.  
 - Financial systems tracking cumulative transactions.
-
-The implementation of these algorithms enhances query performance on extensive datasets in real-time environments.
-
 ---
 
-### **Trees vs. Graphs: Structure and Applications**
+### 6. Trees vs. Graphs: Structure and Applications
 - **Tree**: A simple structure characterized by a single root and no cycles.  
   - **Traversal Methods**: Includes Preorder, Inorder, and Postorder (as applicable in directory structured data).  
 - **Graph**: A complex network of interconnected nodes that may include cycles.  
@@ -62,7 +59,7 @@ The implementation of these algorithms enhances query performance on extensive d
 
 ---
 
-### **Sorting and Searching Algorithms**
+### 7. Sorting and Searching Algorithms**
 Sorting and searching are foundational concepts in computer science:  
 - **Sorting**: The process of arranging data, with algorithms such as quicksort suitable for vast datasets, and mergesort providing reliable sorting mechanisms.  
 - **Searching**: A method to locate specific elements, exemplified by binary search in sorted arrays.
@@ -75,7 +72,7 @@ Various algorithms present distinct advantages and disadvantages in terms of eff
 
 ---
 
-### **The Relevance of Graph Algorithms in Spanning Trees and Shortest Paths**
+### 8. The Relevance of Graph Algorithms in Spanning Trees and Shortest Paths
 Graphs are effective tools for modeling real-world networks, including transportation systems, social interactions, and infrastructural frameworks.  
 - A spanning tree comprises a set of edges connecting all vertices in a graph without forming cycles and is crucial for reducing connection costs in networks.  
 
