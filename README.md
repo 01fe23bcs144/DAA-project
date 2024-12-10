@@ -3,14 +3,14 @@
 
 Nature employs remarkable processes that mirror algorithmic principles. For instance:
 
-- **Iteration**: The cyclical change of seasons and how animals forage for food, such as the construction methods of bees or the behavior of tidal movements.
+- **Iteration**: The cyclical change of seasons and how animals forage for food, the construction methods of bees, and the behavior of tidal movements.
 - **Recursion**: Observed in the formation of snowflakes, the branching patterns of trees, and the replication of DNA.
 - **Backtracking**: Ants demonstrate this concept as they explore various pathways to food and adjust their routes based on their findings. Additionally, it is evident in how spiders repair their webs, how bees locate flowers, how fish navigate streams, and how plants develop their root systems.
 ---
-### **2.What is space and time efficiency? Why are they important? Explain the different class of problems and orders of growth**
-- **Space Efficiency**: This aspect evaluates the additional memory requirements of an algorithm. It is particularly crucial for devices with limited resources, such as microcontrollers.  
-- **Time Efficiency**: This refers to the duration an algorithm requires to execute or the speed at which it performs tasks, which is commonly referred to as time complexity. This is vital for systems necessitating real-time responses, such as traffic management.
-### **Classes of Problems and Orders of Growth**
+### 2 What is space and time efficiency? Why are they important? Explain the different classes of problems and orders of growth.
+- **Space Efficiency**: This aspect evaluates the additional memory requirements of an algorithm.
+- **Time Efficiency**: This refers to the duration an algorithm requires to execute or the speed at which it performs tasks, which is commonly referred to as time complexity.
+## **Classes of Problems and Orders of Growth**
 - **Constant (O(1))**: Represents the fastest class, suitable for simple actions, such as retrieving an item from an array.  
 - **Logarithmic (O(log n))**: Commonly seen in binary search algorithms.  
 - **Linear (O(n))**: This class pertains to sequentially traversing a list.  
@@ -18,8 +18,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 - **Exponential (O(2ⁿ))**: Relevant in more complex scenarios, exemplified by the N-Queens problem.
 ---
 
-### **3.Take away from different design principles from chapter 2 (can use the notes provided)**
-The following design principles are essential to effective problem-solving:  
+### 3 Take away from different design principles from Chapter 2 
 1. **Divide and Conquer**: Splitting problems into smaller, manageable components for easier resolution (as demonstrated in merge sort).  
 2. **Greedy Approach**: Making optimal local decisions at each stage to achieve a globally optimal solution (e.g., Kruskal’s algorithm for Minimum Spanning Trees).  
 3. **Dynamic Programming**: Addressing overlapping subproblems systematically (such as computing the Fibonacci sequence).  
@@ -28,19 +27,17 @@ The following design principles are essential to effective problem-solving:
 
 ---
 
-### **Hierarchical Data and Optimized Tree Structures**
-Tree structures, including binary search trees (BST), AVL trees, and heaps, effectively organize hierarchical data.  
+### 4 The hierarchical data and how different tree data structures solve and optimize over the problem scenarios.
 - **Binary Search Tree (BST)**: Enables efficient search, insertion, and deletion operations.  
 - **AVL Tree**: A self-balancing variant of BST that maintains operations at O(log n).  
 - **Red-Black Tree**: Facilitates memory balancing in complex scenarios, such as database indexing.  
 - **Heap**: Commonly utilized in priority queues and sorting algorithms (e.g., heap sort).  
 - **Trie**: Particularly beneficial for prefix-based searches, which enhance functionalities like autocomplete.
 
-These structures minimize redundancy and enhance the efficiency of searching and sorting operations.
 
 ---
 
-### **The Importance of Array Query Algorithms**
+### 5 The need of array query algorithms and their implications. Their applications and principles need to be discussed
 Array query algorithms significantly improve data retrieval and update efficiency:  
 - **Segment Tree**: Efficiently manages range queries, enabling operations such as finding sums or minimums in logarithmic time.  
 - **Fenwick Tree (BIT)**: Optimizes prefix sum queries and updates.
