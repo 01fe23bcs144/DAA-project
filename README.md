@@ -6,6 +6,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 - **Iteration**: The cyclical change of seasons and how animals forage for food, the construction methods of bees, and the behavior of tidal movements.
 - **Recursion**: Observed in the formation of snowflakes, the branching patterns of trees, and the replication of DNA.
 - **Backtracking**: Ants demonstrate this concept as they explore various pathways to food and adjust their routes based on their findings. Additionally, it is evident in how spiders repair their webs, how bees locate flowers, how fish navigate streams, and how plants develop their root systems.
+  
 ---
 ### 2. What is space and time efficiency? Why are they important? Explain the different classes of problems and orders of growth.
 - **Space Efficiency**: This aspect evaluates the additional memory requirements of an algorithm.
@@ -16,6 +17,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 - **Linear (O(n))**: This class pertains to sequentially traversing a list.  
 - **Quadratic (O(n²))**: Typically associated with nested loops, such as bubble sort.  
 - **Exponential (O(2ⁿ))**: Relevant in more complex scenarios, exemplified by the N-Queens problem.
+  
 ---
 
 ### 3. Take away from different design principles from Chapter 2 
