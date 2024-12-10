@@ -1,42 +1,30 @@
 
-### Understanding Natural Problem-Solving Approaches in Nature
+### 1 What are the kinds of problems we see in nature? (iteration, recursion, backtracking)
 
 Nature employs remarkable processes that mirror algorithmic principles. For instance:
 
 - **Iteration**: The cyclical change of seasons and how animals forage for food, such as the construction methods of bees or the behavior of tidal movements.
 - **Recursion**: Observed in the formation of snowflakes, the branching patterns of trees, and the replication of DNA.
 - **Backtracking**: Ants demonstrate this concept as they explore various pathways to food and adjust their routes based on their findings. Additionally, it is evident in how spiders repair their webs, how bees locate flowers, how fish navigate streams, and how plants develop their root systems.
-
-These innate processes provide valuable insights for solving complex problems, including navigating mazes, generating patterns, and managing combinations.
-
 ---
-
-### **Space and Time Efficiency: Importance and Implications**
-Space and time efficiency pertain to the optimal utilization of resources by an algorithm.  
+### **2.What is space and time efficiency? Why are they important? Explain the different class of problems and orders of growth**
 - **Space Efficiency**: This aspect evaluates the additional memory requirements of an algorithm. It is particularly crucial for devices with limited resources, such as microcontrollers.  
 - **Time Efficiency**: This refers to the duration an algorithm requires to execute or the speed at which it performs tasks, which is commonly referred to as time complexity. This is vital for systems necessitating real-time responses, such as traffic management.
-
-Assessing these factors assists in determining the overall efficiency of an algorithm and aids in selecting the most suitable option for specific requirements.
-
 ### **Classes of Problems and Orders of Growth**
 - **Constant (O(1))**: Represents the fastest class, suitable for simple actions, such as retrieving an item from an array.  
 - **Logarithmic (O(log n))**: Commonly seen in binary search algorithms.  
 - **Linear (O(n))**: This class pertains to sequentially traversing a list.  
 - **Quadratic (O(n²))**: Typically associated with nested loops, such as bubble sort.  
 - **Exponential (O(2ⁿ))**: Relevant in more complex scenarios, exemplified by the N-Queens problem.
-
-Effective design ensures that algorithms remain scalable and practical for processing larger datasets.
-
 ---
 
-### **Key Design Principles in Problem Solving**
+### **3.Take away from different design principles from chapter 2 (can use the notes provided)**
 The following design principles are essential to effective problem-solving:  
 1. **Divide and Conquer**: Splitting problems into smaller, manageable components for easier resolution (as demonstrated in merge sort).  
 2. **Greedy Approach**: Making optimal local decisions at each stage to achieve a globally optimal solution (e.g., Kruskal’s algorithm for Minimum Spanning Trees).  
 3. **Dynamic Programming**: Addressing overlapping subproblems systematically (such as computing the Fibonacci sequence).  
 4. **Backtracking**: Exploring all potential solutions methodically (e.g., the N-Queens problem).
 
-These principles facilitate a balance between problem complexity and resource utilization.
 
 ---
 
