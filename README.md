@@ -154,6 +154,13 @@ Dividing problems into smaller components enhances manageability. For example, i
 This is the introduction section.
 
 ---
+# Welcome to My Project
+
+## Navigate to Sections
+
+- [Introduction](./CourseReflection.md)
+- [Overview](./overview.md)
+- [Conclusion](./conclusion.md)
 
 ## Overview
 This is the overview section.
