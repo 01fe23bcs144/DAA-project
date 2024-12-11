@@ -11,7 +11,7 @@ Nature employs remarkable processes that mirror algorithmic principles. For inst
 ### 2. What is space and time efficiency? Why are they important? Explain the different classes of problems and orders of growth.
 - **Space Efficiency**: This aspect evaluates the additional memory requirements of an algorithm.
 - **Time Efficiency**: This refers to the duration an algorithm requires to execute or the speed at which it performs tasks, which is commonly referred to as time complexity.
-## **Classes of Problems and Orders of Growth**
+### **Classes of Problems and Orders of Growth**
 - **Constant (O(1))**: Represents the fastest class, suitable for simple actions, such as retrieving an item from an array.  
 - **Logarithmic (O(log n))**: Commonly seen in binary search algorithms.  
 - **Linear (O(n))**: This class pertains to sequentially traversing a list.  
@@ -66,9 +66,12 @@ Sorting and searching are foundational concepts in computer science:
 - **Sorting**: The process of arranging data, with algorithms such as quicksort suitable for vast datasets, and mergesort providing reliable sorting mechanisms.  
 - **Searching**: A method to locate specific elements, exemplified by binary search in sorted arrays.
 
+
 **Real-World Applications**:
 - Sorting: Online retailers often arrange products based on price or popularity.  
 - Searching: Locating a contact in a mobile device or a product in an inventory.
+
+
 ---
 
 ### 8. The Relevance of Graph Algorithms in Spanning Trees and Shortest Paths
@@ -112,6 +115,7 @@ Graphs are effective tools for modeling real-world networks, including transport
 
 ### 10. Determining Efficient Solutions for Complex Problems
 To ascertain the most efficient methodology, analyzing the problem setup and inherent constraints is crucial. Identifying overlapping issues may indicate the necessity for dynamic programming, while selection problems may warrant a greedy approach. Evaluating time and space efficiency will aid in selecting the most appropriate solution.
+
 
 ---
 
