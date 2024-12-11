@@ -142,6 +142,14 @@ Dividing problems into smaller components enhances manageability. For example, i
 
 ---
 
+# Welcome to My Project
+
+## Navigate to Sections
+
+- [Introduction](https://<01FE23BCS144>.github.io/<DAA-project>/introduction)
+- [Overview](https://<username>.github.io/<repository>/overview)
+- [Conclusion](https://<username>.github.io/<repository>/conclusion)
+
 ## Introduction
 This is the introduction section.
 
