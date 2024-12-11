@@ -1,7 +1,3 @@
-Yes! *Indicators* are specific metrics used to track progress toward achieving Sustainable Development Goals (SDGs). Below are the most relevant indicators for your business cases under their respective SDGs:
-
----
-
 ### *1. Transportation*
 *SDG 9: Industry, Innovation, and Infrastructure*  
 - *9.1.1:* Proportion of rural population living within 2 km of an all-season road.  
@@ -54,4 +50,3 @@ Yes! *Indicators* are specific metrics used to track progress toward achieving S
 
 ---
 
-These indicators serve as measurable benchmarks to monitor progress and impact for each business case. Let me know if you want to dive deeper into any particular SDG or indicator!
