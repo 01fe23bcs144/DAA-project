@@ -136,7 +136,7 @@ Dividing problems into smaller components enhances manageability. For example, i
 
 ## Navigate to Sections
 
-- [Introduction](#coursereflection)
+- [Introduction](#courseReflection)
 - [Overview](#overview)
 - [Conclusion](#conclusion)
 
