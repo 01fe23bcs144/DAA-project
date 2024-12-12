@@ -5,8 +5,8 @@
     #include <vector>
     using namespace std;
 
-class MaxHeap {
-private:
+    class MaxHeap {
+    private:
     vector<int> heap;
 
     void HeapifyUp(int i) {
@@ -37,7 +37,7 @@ private:
         heap[i] = v;
     }
 
-public:
+    public:
     MaxHeap() {
         heap.push_back(-1); // Placeholder to simplify index calculations
     }
@@ -79,9 +79,9 @@ public:
             cout << "Heap is empty!" << endl;
         }
     }
-};
+    };
 
-int main() {
+    int main() {
     MaxHeap maxHeap;
     int choice, value;
 
@@ -119,7 +119,7 @@ int main() {
     } while (choice != 5);
 
     return 0;
-}
-    </textarea>
+    }
+ </textarea>
 </body>
 </html>
