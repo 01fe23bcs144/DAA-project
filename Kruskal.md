@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kruskal's Algorithm</title>
-</head>
+
 <body>
+          <h1>Kruskal's Code</h1>
     <pre>
 #include &lt;iostream&gt;
 
