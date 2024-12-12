@@ -35,4 +35,5 @@
 ---
 
 - [Dijekstra's code](./Dijekstras.md)
+- [Kruskal's code](./Kruskal.md)
 - [Heap](./Heap.md)
