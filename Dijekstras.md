@@ -1,10 +1,20 @@
- #include <iostream>
- #include <climits>
- using namespace std;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display C++ Code</title>
+</head>
+<body>
+    <pre>
+#include &lt;iostream&gt;
+#include &lt;climits&gt;
 
- class Dijkstra
+using namespace std;
+
+class Dijkstra
 {
- public:
+public:
     int cost[100][100];
     int v; // Number of vertices
     int dist[10]; // Array to store shortest distances
@@ -19,12 +29,12 @@
 
 void Dijkstra::read_cost(int cost[100][100], int v)
 {
-    cout << "Enter the cost matrix:\n";
-    for (int i = 0; i < v; i++)
+    cout &lt;&lt; "Enter the cost matrix:\n";
+    for (int i = 0; i &lt; v; i++)
     {
-        for (int j = 0; j < v; j++)
+        for (int j = 0; j &lt; v; j++)
         {
-            cin >> cost[i][j];
+            cin &gt;&gt; cost[i][j];
             if (cost[i][j] == 0 && i != j)
             {
                 cost[i][j] = INT_MAX; // Set non-edges to infinity
@@ -35,7 +45,7 @@ void Dijkstra::read_cost(int cost[100][100], int v)
 
 void Dijkstra::initiate(int arr[10], int n)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i &lt; n; i++)
     {
         arr[i] = 0;
     }
@@ -44,7 +54,7 @@ void Dijkstra::initiate(int arr[10], int n)
 void Dijkstra::shortest_path(int src)
 {
     // Initialize distances and visited array
-    for (int i = 0; i < v; i++)
+    for (int i = 0; i &lt; v; i++)
     {
         dist[i] = INT_MAX;
         visited[i] = 0;
@@ -52,14 +62,14 @@ void Dijkstra::shortest_path(int src)
     }
     dist[src] = 0; // Distance to source is 0
 
-    for (int count = 0; count < v - 1; count++)
+    for (int count = 0; count &lt; v - 1; count++)
     {
         // Find the vertex with the minimum distance
         int min_dist = INT_MAX, u;
 
-        for (int i = 0; i < v; i++)
+        for (int i = 0; i &lt; v; i++)
         {
-            if (!visited[i] && dist[i] < min_dist)
+            if (!visited[i] && dist[i] &lt; min_dist)
             {
                 min_dist = dist[i];
                 u = i;
@@ -69,9 +79,9 @@ void Dijkstra::shortest_path(int src)
         visited[u] = 1; // Mark the chosen vertex as visited
 
         // Relax the edges of the chosen vertex
-        for (int i = 0; i < v; i++)
+        for (int i = 0; i &lt; v; i++)
         {
-            if (!visited[i] && cost[u][i] != INT_MAX && dist[u] != INT_MAX && dist[u] + cost[u][i] < dist[i])
+            if (!visited[i] && cost[u][i] != INT_MAX && dist[u] != INT_MAX && dist[u] + cost[u][i] &lt; dist[i])
             {
                 dist[i] = dist[u] + cost[u][i];
                 path[i] = u; // Update the path
@@ -82,22 +92,22 @@ void Dijkstra::shortest_path(int src)
 
 void Dijkstra::print_path(int src)
 {
-    cout << "Vertex\tDistance from Source\tPath" << endl;
-    for (int i = 0; i < v; i++)
+    cout &lt;&lt; "Vertex\tDistance from Source\tPath" &lt;&lt; endl;
+    for (int i = 0; i &lt; v; i++)
     {
-        cout << i << "\t" << dist[i] << "\t\t";
+        cout &lt;&lt; i &lt;&lt; "\t" &lt;&lt; dist[i] &lt;&lt; "\t\t";
 
         // Print the path
         int temp = i;
         while (temp != -1 && temp != src)
         {
-            cout << temp << " <- ";
+            cout &lt;&lt; temp &lt;&lt; " &lt;- ";
             temp = path[temp];
         }
         if (i != src)
-            cout << src;
+            cout &lt;&lt; src;
 
-        cout << endl;
+        cout &lt;&lt; endl;
     }
 }
 
@@ -106,16 +116,19 @@ int main()
     Dijkstra d;
     int src;
 
-    cout << "Enter the number of vertices: ";
-    cin >> d.v;
+    cout &lt;&lt; "Enter the number of vertices: ";
+    cin &gt;&gt; d.v;
 
     d.read_cost(d.cost, d.v);
 
-    cout << "Enter the source vertex: ";
-    cin >> src;
+    cout &lt;&lt; "Enter the source vertex: ";
+    cin &gt;&gt; src;
 
     d.shortest_path(src);
     d.print_path(src);
 
     return 0;
 }
+    </pre>
+</body>
+</html>
