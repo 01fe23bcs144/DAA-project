@@ -6,5 +6,6 @@
 - [Coures Reflection](./CourseReflection.md)
 - [Code implementation](./code.md)
 ### Basic Codes
-- [dijekstra's code](./Dijekstras.md)
+- [Dijekstra's code](./Dijekstras.md)
+- [Kruskal's code](./Kruskal.md)
 
