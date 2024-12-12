@@ -34,6 +34,7 @@
 
 ---
 - [DFS traversal code](./DFS.md)
+- [BFS traversal code](./BFS.md)
 - [Dijekstra's code](./Dijekstras.md)
 - [Kruskal's code](./Kruskal.md)
 - [Heap](./Heap.md)
