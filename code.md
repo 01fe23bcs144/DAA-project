@@ -33,7 +33,7 @@
 - **Union-Find**: Manage connectivity between windmill units and power grids.  
 
 ---
-
+- [DFS traversal code](./DFS.md)
 - [Dijekstra's code](./Dijekstras.md)
 - [Kruskal's code](./Kruskal.md)
 - [Heap](./Heap.md)
