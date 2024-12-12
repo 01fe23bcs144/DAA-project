@@ -1,3 +1,12 @@
-title: Your Portfolio Title
-description: A description of your portfolio or the purpose of your site.
+title: "Your Portfolio Title"
+description: "A description of your portfolio or the purpose of your site."
+baseurl: "" # Leave empty unless hosting in a subdirectory
+url: "https://yourusername.github.io" # Replace with your site's URL
+
 theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Minimal Mistakes-specific options
+minimal_mistakes_skin: "default"
