@@ -1,10 +1,10 @@
-- #include <iostream>
-- #include <climits>
-- using namespace std;
+ #include <iostream>
+ #include <climits>
+ using namespace std;
 
-- class Dijkstra
-- {
-- public:
+ class Dijkstra
+{
+ public:
     int cost[100][100];
     int v; // Number of vertices
     int dist[10]; // Array to store shortest distances
