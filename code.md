@@ -35,3 +35,4 @@
 ---
 
 - [Dijekstra's code](./Dijekstras.md)
+- [Heap](./Heap.md)
