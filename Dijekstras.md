@@ -15,10 +15,10 @@ class Dijkstra
 {
 public:
     int cost[100][100];
-    int v; // Number of vertices
-    int dist[10]; // Array to store shortest distances
-    int path[10]; // Array to store predecessors
-    int visited[10]; // Array to mark visited vertices
+    int v;
+    int dist[10]; 
+    int path[10]; 
+    int visited[10]; 
 
     void read_cost(int cost[100][100], int v);
     void initiate(int arr[10], int n);
@@ -36,7 +36,7 @@ void Dijkstra::read_cost(int cost[100][100], int v)
             cin &gt;&gt; cost[i][j];
             if (cost[i][j] == 0 && i != j)
             {
-                cost[i][j] = INT_MAX; // Set non-edges to infinity
+                cost[i][j] = INT_MAX; 
             }
         }
     }
