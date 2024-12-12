@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-      <h1>Dijkstra's Code</h1>
+      <h1>Heap Code</h1>
 
     #include <iostream>
     #include <vector>
