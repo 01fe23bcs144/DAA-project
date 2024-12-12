@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,18 +52,17 @@ void Dijkstra::initiate(int arr[10], int n)
 
 void Dijkstra::shortest_path(int src)
 {
-    // Initialize distances and visited array
     for (int i = 0; i &lt; v; i++)
     {
         dist[i] = INT_MAX;
         visited[i] = 0;
         path[i] = -1;
     }
-    dist[src] = 0; // Distance to source is 0
-
+    dist[src] = 0; 
     for (int count = 0; count &lt; v - 1; count++)
     {
-        // Find the vertex with the minimum distance
+
+    
         int min_dist = INT_MAX, u;
 
         for (int i = 0; i &lt; v; i++)
@@ -76,9 +74,8 @@ void Dijkstra::shortest_path(int src)
             }
         }
 
-        visited[u] = 1; // Mark the chosen vertex as visited
+        visited[u] = 1; 
 
-        // Relax the edges of the chosen vertex
         for (int i = 0; i &lt; v; i++)
         {
             if (!visited[i] && cost[u][i] != INT_MAX && dist[u] != INT_MAX && dist[u] + cost[u][i] &lt; dist[i])
@@ -97,7 +94,6 @@ void Dijkstra::print_path(int src)
     {
         cout &lt;&lt; i &lt;&lt; "\t" &lt;&lt; dist[i] &lt;&lt; "\t\t";
 
-        // Print the path
         int temp = i;
         while (temp != -1 && temp != src)
         {
