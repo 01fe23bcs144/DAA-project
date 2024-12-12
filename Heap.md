@@ -1,33 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaxHeap Program</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        textarea {
-            width: 100%;
-            height: 500px;
-            font-family: monospace;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            resize: none;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
-</head>
-<body>
-    <h1>MaxHeap C++ Program</h1>
-    <p>Below is the C++ code for the MaxHeap implementation. You can copy it for use in your projects.</p>
-    <textarea readonly>
 #include <iostream>
 #include <vector>
 using namespace std;
