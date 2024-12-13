@@ -3,7 +3,7 @@
 
 <body>
   
-    <pre>
+  <pre>
 #include &lt;iostream&gt;
 using namespace std;
 
