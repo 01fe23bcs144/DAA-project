@@ -2,7 +2,7 @@
 <html lang="en">
 
 <body>
-    <h1>BFS Traversal Code</h1>
+  
     <pre>
 #include &lt;iostream&gt;
 using namespace std;
